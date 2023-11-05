@@ -8,6 +8,8 @@ function updateClock() {
   document.getElementById('time').textContent = timeString;
 }
 
+
 updateClock();
+
 
 setInterval(updateClock, 1000);
